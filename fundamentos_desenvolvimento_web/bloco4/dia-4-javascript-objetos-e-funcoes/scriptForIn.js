@@ -7,3 +7,13 @@ let names = {
   for (let key in names) {
       console.log('Olá ' + names[key])
   }
+
+let car = {
+    model: 'A3 Sedan',
+    manufacturer: 'Audi',
+    year: 2020
+  };
+
+  for (let key in car) {
+    console.log('Chave: ' + key + '; valor: ' + car[key])
+  }

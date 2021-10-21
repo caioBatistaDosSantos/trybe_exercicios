@@ -57,37 +57,44 @@
   <body>
     <script>
       // COLOQUE SEU CÓDIGO AQUI
+      
+      // Item 1
       let criterio1 = document.createElement('h1');
       criterio1.innerText = 'Exercício 5.2 - JavaScript DOM'
       document.body.appendChild(criterio1)
 
+      // Item 2
       let criterio2 = document.createElement('main');
       criterio2.className = 'main-content'
       document.body.appendChild(criterio2)
 
+      // Item 3
       let criterio3 = document.createElement('section');
       criterio3.className = 'center-content'
       criterio2.appendChild(criterio3)
 
+      // Ietm 4
       let criterio4 = document.createElement('p');
       criterio4.innerText = 'testo teste, mais e mais testes'
       criterio3.appendChild(criterio4)
 
+      // Item 5
       let criterio5 = document.createElement('section');
       criterio5.className = 'left-content'
       criterio2.appendChild(criterio5)
 
+      // Item 6
       let criterio6 = document.createElement('section');
       criterio6.className = 'right-content'
       criterio2.appendChild(criterio6)
 
+      // Item 7
       let criterio7 = document.createElement('img');
       criterio7.src = 'https://picsum.photos/200'
       criterio7.className = 'small-image'
       criterio5.appendChild(criterio7)
 
       // Item 8
-
       let criterio8Ul = document.createElement('ul')
       criterio6.appendChild(criterio8Ul)
 
@@ -100,6 +107,13 @@
         let criterio8 = document.createElement('li')
         criterio8.innerText = numbers
         criterio8Ul.appendChild(criterio8)
+      }
+
+      // Item 9
+      for (let i = 1; i <= 3; i++) {
+        let criterio9 = document.createElement('h3')
+        criterio9.innerText = 'teste ' + i
+        criterio2.appendChild(criterio9)
       }
 
     </script>

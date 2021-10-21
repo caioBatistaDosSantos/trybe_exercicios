@@ -61,6 +61,7 @@
       // Item 1
       let criterio1 = document.createElement('h1');
       criterio1.innerText = 'Exercício 5.2 - JavaScript DOM'
+      criterio1.className = 'title'
       document.body.appendChild(criterio1)
 
       // Item 2
@@ -113,8 +114,21 @@
       for (let i = 1; i <= 3; i++) {
         let criterio9 = document.createElement('h3')
         criterio9.innerText = 'teste ' + i
+        criterio9.className = 'description'
         criterio2.appendChild(criterio9)
       }
+
+      // Remocao de item 5
+
+      criterio2.removeChild(criterio5)
+
+      let posicaoCriterio6 =  document.getElementsByClassName('right-content')[0];
+      posicaoCriterio6.style.marginRight = 'auto'
+
+      document.getElementsByClassName('center-content')[0].parentNode.style.backgroundColor = 'green'
+
+      criterio8Ul.lastChild.remove()
+      criterio8Ul.lastChild.remove()
 
     </script>
   </body>

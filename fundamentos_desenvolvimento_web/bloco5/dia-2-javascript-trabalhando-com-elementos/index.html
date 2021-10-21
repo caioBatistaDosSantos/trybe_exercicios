@@ -85,6 +85,23 @@
       criterio7.src = 'https://picsum.photos/200'
       criterio7.className = 'small-image'
       criterio5.appendChild(criterio7)
+
+      // Item 8
+
+      let criterio8Ul = document.createElement('ul')
+      criterio6.appendChild(criterio8Ul)
+
+      let criterio8List = ['um', 'dois', 'tres', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+         
+
+      for (let i = 0; i < criterio8List.length; i++) {
+        let numbers = criterio8List[i];
+
+        let criterio8 = document.createElement('li')
+        criterio8.innerText = numbers
+        criterio8Ul.appendChild(criterio8)
+      }
+
     </script>
   </body>
 </html>

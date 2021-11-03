@@ -40,14 +40,14 @@
       <legend>Dados do seu último emprego</legend>
       <label for="curriculo">Resumo do seu currículo</label>
       <br>
-      <textarea name="curriculo" id="curriculo" cols="30" rows="10" required></textarea>
+      <textarea name="curriculo" id="curriculo" cols="30" rows="10" required maxlength="1000"></textarea>
       <br>
       <label for="cargo">Cargo Ocupado
-        <input type="text" required id="cargo">
+        <input type="text" id="cargo" required maxlength="40">
       </label>
       <br>
       <label for="cargo-descricao">Descrrição do Cargo
-        <input type="text" id="cargo-descricao" required>
+        <input type="text" id="cargo-descricao" required maxlength="500">
       </label>
       <br>
       <label for="data">Data de Inicio

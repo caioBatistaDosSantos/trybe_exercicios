@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PARTE 1 - EXERCICIOS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Formulário</h1>
+  <form action="" method="GET">
+    <label for="user">Usuário</label>
+    <br>
+    <input type="text" name="user" placeholder="Digite seu email" required autocomplete="off" autofocus id="user">
+    <br>
+    <label for="senha">Senha</label>
+    <br>
+    <input type="password" name="senha" placeholder="Digite sua senha" required id="senha">
+    <input type="checkbox" name="remeber">Lembre-me
+    <br>
+    <button type="submit">Entrar</button>
+    <br>
+    <fieldset>
+      <legend>Informacoes Adicionais</legend>
+      <label for="esportes">Esporte Favorito</label>
+      <select name="esportes" id="esportes">
+        <option value="fut">Futebol</option>
+        <option value="basca">Basquete</option>
+        <option value="pet">Peteca</option>
+        <option value="mus">Musculação</option>
+        <option value="nat">Natação</option>
+      </select>
+      <label for="estado">Estado</label>
+      <select name="estado" id="estado">
+        <option value="fut">Sao Paulo</option>
+        <option value="basca">Minas Gerais</option>
+        <option value="pet">Amazonas</option>
+        <option value="mus">Rio de Janeiro</option>
+        <option value="nat">Espirito Santo</option>
+      </select>
+    </fieldset>
+    
+
+  </form>
+
+</body>
+</html>
